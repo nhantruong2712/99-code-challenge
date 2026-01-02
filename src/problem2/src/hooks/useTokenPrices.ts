@@ -13,6 +13,11 @@ export const useTokenPrices = (): UseTokenPricesReturn => {
       try {
         setLoading(true)
         setError(null)
+
+        if (!PRICES_API_URL || PRICES_API_URL === 'undefined') {
+          throw new Error('API URL is not configured')
+        }
+
         const response = await fetch(PRICES_API_URL)
 
         if (!response.ok) {
