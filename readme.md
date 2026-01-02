@@ -49,6 +49,13 @@ npm install
 npm run dev
 ```
 
+**[Deployment Demo URL https://99-code-challenge-eight.vercel.app/](https://99-code-challenge-eight.vercel.app/)**
+
+**Preview**
+
+<img width="550" height="589" alt="image" src="https://github.com/user-attachments/assets/e5e40399-804c-4c01-a069-99f94984b9e9" />
+
+
 **Implementation**:
 
 - **Type Safety**: Full TypeScript implementation with proper interfaces and types
